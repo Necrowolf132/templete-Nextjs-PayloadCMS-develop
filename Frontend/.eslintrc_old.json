@@ -1,0 +1,13 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "import/no-anonymous-default-export":"off",
+    "react/display-name": "off",
+    "semi": "off",
+    "space-before-function-paren":"off",
+    "indent": "off",
+    "comma-dangle": "off",
+    "eol-last": "off"
+  }
+}

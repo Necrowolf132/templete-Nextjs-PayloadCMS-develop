@@ -1,0 +1,51 @@
+{
+  "name": "odontology-intelligent-services-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "feather-icons": "^4.29.0",
+    "framer-motion": "^7.6.4",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
+    "twin.macro": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "autoprefixer": "^10.4.13",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-styled-components": "^2.0.7",
+    "babel-plugin-twin": "^1.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "standard": "^17.0.0",
+    "tailwindcss": "^3.2.2"
+  },
+  "babelMacros": {
+    "twin": {
+      "styled": {
+        "import": "default",
+        "from": "styled-components"
+      }
+    }
+  },
+  "imports": {
+    "#helpers/*": "./src/helpers/*",
+    "#components/*": "./src/components/*",
+    "#images/*": "./src/images/*"
+  }
+}
